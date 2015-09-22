@@ -1,3 +1,4 @@
-import Encrypt2
+import Encrypt
 
-Encrypt2.decrypt(Encrypt2.hash_key('hello'), 'lpp.java.enc')
+Encrypt.decrypt(Encrypt2.hash_key('hello'), 'lpp.java')
+# password then name of file will go above
